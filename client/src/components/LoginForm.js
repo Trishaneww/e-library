@@ -47,7 +47,7 @@ const LoginForm = () => {
           show={showAlert}
           variant='danger'
         >
-         Your login has failed. Please make sure it is correct.
+         Login Failed. Ensure submitted information is correct
         </Alert>
         <Form.Group>
           <Form.Label htmlFor='email'>Email</Form.Label>
@@ -89,5 +89,6 @@ const LoginForm = () => {
     </>
   )
 }
+
 
 export default LoginForm
